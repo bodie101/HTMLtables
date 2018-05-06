@@ -1,0 +1,29 @@
+table, tr, th, td {
+
+    border: 2px solid #222; 
+}
+
+table, th, td {
+
+    border-collapse: collapse; 
+}
+
+table {
+    width:100%; 
+}
+
+th {
+    background-color: #f00; 
+    color: #fff; 
+    font-family: arial; 
+    height: 50px; 
+}
+
+td{
+    height  : 50px; 
+    text-align: center; 
+}
+
+tr:nth-child(odd) {
+    background-color: #ccc; 
+}
